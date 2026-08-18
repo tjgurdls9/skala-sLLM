@@ -1,0 +1,34 @@
+{
+  "base_model": "Qwen/Qwen2.5-1.5B-Instruct",
+  "adapter_path": "/Users/seohyeokin/workspace/skala-sLLM/sllm-main-std/models/hr-qwen-lora",
+  "device": "mps",
+  "evaluation_count": 10,
+  "known_policy_count": 10,
+  "unknown_policy_count": 0,
+  "win_margin": 0.01,
+  "wins": {
+    "base": 1,
+    "fine_tuned": 9,
+    "tie": 0
+  },
+  "base": {
+    "average_keyword_score": 0.06,
+    "average_token_f1": 0.0774,
+    "average_total_score": 0.0652,
+    "unknown_hallucination_count": 0,
+    "unknown_hallucination_rate": 0.0
+  },
+  "fine_tuned": {
+    "average_keyword_score": 0.26,
+    "average_token_f1": 0.2748,
+    "average_total_score": 0.2644,
+    "unknown_hallucination_count": 0,
+    "unknown_hallucination_rate": 0.0
+  },
+  "improvement": {
+    "keyword_score": 0.2,
+    "token_f1": 0.1974,
+    "total_score": 0.1992,
+    "hallucination_rate": 0.0
+  }
+}
