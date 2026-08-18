@@ -1,0 +1,30 @@
+.DS_Store
+**/.DS_Store
+.ipynb_checkpoints/
+__pycache__/
+*.pyc
+.claude/settings.local.json
+.claude/worktrees/
+
+# 가상환경 (루트 1.5G, sllm-main-std 21M)
+sllm/
+sllm-main-std/sllm/
+.venv/
+venv/
+
+# 학습 체크포인트 / 모델 가중치 (527M) — 재생성 가능
+sllm-main-std/models/
+*.pt
+*.safetensors
+*.bin
+
+# 강의 제공 자료(서브노트/템플릿) — 본인 과제 제출물만 추적
+sLLM & Fine-Tuning 1일차 실습 서브노트.pdf
+sLLM_FineTuning_1일차_실습_서브노트.docx
+sLLM_FineTuning_1일차_실습_서브노트.html
+sLLM_FineTuning_2일차_실습_서브노트.html
+코드이해_개인과제_템플릿1.docx
+코드이해_개인과제_템플릿2.docx
+코드이해_개인과제_템플릿3.docx
+코드이해_개인과제_템플릿3_2일차.docx
+코드이해_개인과제_템플릿3_원본예시_백업.docx

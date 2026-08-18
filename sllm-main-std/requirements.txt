@@ -1,0 +1,31 @@
+# Qwen2.5-1.5B-Instruct + PEFT LoRA + TRL SFTTrainer
+
+# LLM
+torch>=2.7.0
+transformers>=4.53.0,<5.15.0
+accelerate>=1.8.0
+
+# LoRA
+peft>=0.16.0
+
+# Dataset
+datasets>=4.0.0
+
+# Fine-tuning
+trl>=0.23.0
+
+# Tokenizer
+sentencepiece>=0.2.0
+
+# Embedding
+# BGE-M3를 이용하여 Knowledge 문서를 Vector로 변환
+sentence-transformers>=5.0.0
+
+# Vector Search
+# Embedding Vector를 저장하고 Semantic Search 수행
+faiss-cpu>=1.11.0
+
+# Jupyter Notebook
+# .ipynb 실습 실행 및 Progress Bar 표시
+jupyter>=1.1.0
+ipywidgets>=8.1.0
