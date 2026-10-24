@@ -28,3 +28,9 @@ sLLM_FineTuning_2일차_실습_서브노트.html
 코드이해_개인과제_템플릿3.docx
 코드이해_개인과제_템플릿3_2일차.docx
 코드이해_개인과제_템플릿3_원본예시_백업.docx
+
+# SKALA 수업·발표 자료: 로컬에만 둔다
+/sLLM 및 Fine Tuning_과제_1일차_1반_서혁인.pages
+/sLLM 및 Fine Tuning_과제_2일차_1반_서혁인.pages
+/sllm-main-std/knowledge_asset_demo_faiss_bge_m3.ipynb
+/sllm-main-std/peft_lora_parameter_compare_cache.ipynb
